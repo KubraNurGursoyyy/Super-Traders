@@ -1,0 +1,18 @@
+{
+  "name": "evaexchange",
+  "version": "1.0.0",
+  "description": "test case",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "KubraNurGursoyyy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "postgre": "^0.1.8",
+    "postgres": "^3.3.2",
+    "sequelize": "^6.25.7"
+  }
+}

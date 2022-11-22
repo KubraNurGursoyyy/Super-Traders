@@ -1,0 +1,13 @@
+export const errorHandling = ({ code, status, message }) => {
+    return {
+        status: code || status,
+        message
+    };
+};
+
+export const unAuthorizedError = () => {
+    return errorHandling({
+        code: 401,
+        message: 'Unauthorized'
+    })
+};
